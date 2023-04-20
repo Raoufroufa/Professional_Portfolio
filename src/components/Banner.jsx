@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/images/header-img.svg";
+import headerImg from "../assets/images/header_img.svg.webp";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -68,7 +68,7 @@ const Banner = () => {
                 >
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
-                    {`Hi! I'm Judy`}{" "}
+                    {`Hi! I'm Raouf `}{" "}
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
@@ -110,4 +110,4 @@ const Banner = () => {
   );
 }
 
-export default Banner
+export default Banner;

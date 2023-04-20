@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import { ProjectCard } from "./ProjectCard";
+import ProjectCard  from "./ProjectCard";
 import colorSharp2 from "../assets/images/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -8,7 +8,7 @@ import ProjectsData from "../Data/ProjectsData";
 
 const Projects = () => {
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col size={12}>
